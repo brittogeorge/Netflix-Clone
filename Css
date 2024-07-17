@@ -1,0 +1,125 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    background-color:hsl(0, 0%, 0%);
+}
+.nav{
+    top:o;
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    height:65px;
+}
+.navlogo{
+    height: 75px;
+    width:500px;
+    object-fit: contain;
+}
+.nav img{
+    width:150px;
+    margin-top: 35px;
+}
+ul{
+    text-align: right;
+    padding-bottom: 60px;
+}
+ul li{
+    display:inline;
+    margin-right:30px;
+    font-size:medium;
+    font-family: Arial;
+    font-weight:bolder;
+}
+ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 100;
+    cursor:pointer;
+}
+ul li a:hover{
+    border-bottom: 2px solid whitesmoke;
+}
+#Language{
+    color:hsl(0, 0%, 0%);
+    margin-right: 10px;
+    border: 3px solid #960000;
+    box-shadow: rgb(207, 134, 0);
+
+}
+.banner{
+    background:rgba(36, 12, 12, 0.5)url(../images/heist1.webp);
+    min-width: 500px;
+    height:max-content;
+    background-size:cover;
+    background-attachment:local;
+    background-position: center center;
+    background-blend-mode:darken;
+    color: white;
+    height: 470px;
+    object-fit:cover;
+    margin-bottom: 100px;
+}
+.banner-content{
+    padding-top: 250px;
+    margin-top: 80px;
+    margin-left: 20px;
+    height: 100px;
+}
+.banner-content h1{
+    font-size:40px;
+    font-weight:800;
+    padding-bottom: 20px;
+}
+.banner-content p{
+    font-family: calibri;
+}
+.banner-content button{
+    background-color: black;
+    color:#ffffff;
+    cursor:pointer;
+    border-radius: 20px;
+    font-size: 1rem;
+    padding: 15px;
+    margin-right: 15px;
+    border: 2px solid rgb(202, 98, 0);
+    box-shadow: 3px 3px 15px rgb(223, 134, 0);
+}
+.row{
+    color:white;
+    font-family: Arial;
+    font-size: 15px;
+    margin-left: 15px;
+    margin-top: auto;
+}
+.row-posters{
+    display:flex;
+    overflow-x: auto;
+}
+.row-posters::-webkit-scrollbar{
+    width:0;
+}
+.row-poster{
+    cursor:pointer;
+    margin-right: 20px;
+    transition:0.5s;
+    height:300px;
+    border:2px solid rgb(180, 0, 0);
+    border-radius: 10px;
+}
+.row-poster:hover{
+     transform: scale(1.15);
+     z-index: 1;
+}
+footer{
+    color:#ffffff;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(59, 11, 3);
+    bottom:0;
+}
+span{
+    color:bisque;
+}
